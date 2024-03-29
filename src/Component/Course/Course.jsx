@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Course = ({ course }) => {
   const { image, title, details, price, credit } = course;
   return (
-    <div className=" bg-white rounded-md p-5 max-w-[480px] space-y-4 flex flex-col justify-between">
+    <div className=" bg-white rounded-lg p-5 max-w-[480px] space-y-4 flex flex-col justify-between">
       <img className="w-full h-52 object-cover object-center rounded-lg" src={image} alt="Course Image" />
       <h1 className=" text-2xl font-bold">{title}</h1>
       <p className="text-xl text-gray-500 font-semibold text-justify">{details}</p>
