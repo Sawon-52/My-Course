@@ -2,11 +2,14 @@ import { useState } from "react";
 import "./App.css";
 import Bookmarks from "./Component/Bookmarks/Bookmarks";
 import Courses from "./Component/Courses/Courses";
+import { RxCross2 } from "react-icons/rx";
+import Toast from "./Component/Toast/Toast";
 
 function App() {
   const [courseTitle, setCourseTitle] = useState([]);
   const [price, setPrice] = useState(0);
   const [credit, setCradit] = useState(0);
+  const [showToast, setShowToast] = useState(false);
 
   const handleAddtoBookmarks = (title, CoursePrice, CourseCredit) => {
     console.log("Clicked");
@@ -19,8 +22,9 @@ function App() {
       setCourseTitle(newCourseTitle);
       setCradit(newCredit);
       setPrice(newPrice);
+    } else {
+      setShowToast(true);
     }
-    
   };
 
   return (
@@ -35,6 +39,8 @@ function App() {
           <Bookmarks courseTitle={courseTitle} price={price} credit={credit}></Bookmarks>
         </div>
       </div>
+
+      {showToast ? <Toast></Toast> : ""}
     </div>
   );
 }
