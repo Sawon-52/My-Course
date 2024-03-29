@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Bookmarks from "./Component/Bookmarks/Bookmarks";
 import Courses from "./Component/Courses/Courses";
-import { RxCross2 } from "react-icons/rx";
+
 import Toast from "./Component/Toast/Toast";
 
 function App() {
@@ -27,6 +27,11 @@ function App() {
     }
   };
 
+  const handleTost = () => {
+    setShowToast(false);
+  };
+  
+
   return (
     <div className=" bg-slate-300 md:pt-10 p-5 ">
       <h1 className="text-4xl font-bold text-center mb-10">Course Registration </h1>
@@ -40,7 +45,7 @@ function App() {
         </div>
       </div>
 
-      {showToast ? <Toast></Toast> : ""}
+      {showToast ? <Toast handleTost={handleTost}></Toast> : ""}
     </div>
   );
 }
