@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/93YCqdC/besics-Programing.jpg",
+    "title": "Introduction to Programming",
+    "details": "Learn the fundamentals of programming concepts and logic structures. Explore a beginner-friendly language like Python or JavaScript.",
+    "price": 39.99,
+    "credit": 3
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/QJjcZCW/data-Structure.jpg",
+    "title": "Data Structures and Algorithms",
+    "details": "Master essential data structures (arrays, linked lists, stacks, queues, trees, graphs) and algorithms (sorting, searching) for efficient problem-solving.",
+    "price": 49.99,
+    "credit": 4
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/JB9nTyQ/object-Oriented.jpg",
+    "title": "Object-Oriented Programming",
+    "details": "Dive into object-oriented programming (OOP) principles: classes, objects, inheritance, polymorphism, encapsulation. Build robust and reusable code.",
+    "price": 59.99,
+    "credit": 5
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/sqsMwZV/Web-Development.png",
+    "title": "Web Development Fundamentals",
+    "details": "Get started with web development! Learn HTML, CSS, and JavaScript to create interactive web pages and understand the client-server model.",
+    "price": 34.99,
+    "credit": 3
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/Rpv5ngb/Software-Design-Principles.jpg",
+    "title": "Software Engineering Principles",
+    "details": "Explore software development methodologies (SDLC), design patterns, testing practices, version control systems (like Git) for professional software creation.",
+    "price": 44.99,
+    "credit": 4
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/xsm43cy/taylor-vick-M5tz-Zt-FCOfs-unsplash.jpg",
+    "title": "Computer Networks and Communication",
+    "details": "Understand the fundamentals of computer networks (TCP/IP, protocols, network topologies, routing, security) and data communication concepts.",
+    "price": 44.99,
+    "credit": 4
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/m9R79s8/cybersecurity-essentials.jpg",
+    "title": "Cybersecurity Essentials",
+    "details": "Learn about cybersecurity threats (malware, phishing), network security, cryptography, and best practices to protect yourself and your data online.",
+    "price": 39.99,
+    "credit": 3
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/9yW0Q72/artificial.webp",
+    "title": "Artificial Intelligence Fundamentals",
+    "details": "Get introduced to the exciting world of Artificial Intelligence (AI). Explore machine learning, deep learning, and their applications.",
+    "price": 54.99,
+    "credit": 5
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/vYMpx9v/python.jpg",
+    "title": "Machine Learning with Python",
+    "details": "Learn practical machine learning skills using Python! Explore libraries like NumPy, pandas, scikit-learn to build and train machine learning models.",
+    "price": 49.99,
+    "credit": 4
+  }
+]
